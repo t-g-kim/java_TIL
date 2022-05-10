@@ -1,6 +1,5 @@
 package reactive.baeldung;
 
-import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
 import java.util.ArrayList;
 import java.util.List;
