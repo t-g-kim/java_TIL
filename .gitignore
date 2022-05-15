@@ -19,11 +19,8 @@
 *.zip
 *.tar.gz
 *.rar
-
-.idea
 out
 kotlin_TIL.iml
-
 
 .gradle
 build
