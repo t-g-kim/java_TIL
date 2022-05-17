@@ -20,5 +20,11 @@ public class Main {
         Cat cat = new Cat();
         cat.bark();
         cat.exist();
+
+        Animal dog = new Cat();
+        dog.bark();
+//        dog.exist();    // Animal에 exist가 없기 때문에 에러
+
+
     }
 }
