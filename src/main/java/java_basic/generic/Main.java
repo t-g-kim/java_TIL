@@ -55,5 +55,6 @@ public class Main {
 
         Generic03 c = new Generic03();
         c.genericMethod("AABBCC");
+        c.genericMethod(10);
     }
 }

@@ -12,8 +12,8 @@ public class Example03 {
         double num1 = 3.14;
         float num2 = 10.0f;
 
-        num1 = num2; // 에러, 큰타입을 작은타입에 넣으려면 에러가 난다.
-        num1 = (double) num2; // 큰타입을 작은타입에 넣으려면 강제 형변환을 해줘야함
+//        num2 = num1; // 에러, 큰타입을 작은타입에 넣으려면 에러가 난다.
+        num2 = (float) num2; // 큰타입을 작은타입에 넣으려면 강제 형변환을 해줘야함
 
         String str = "100";
         int i = Integer.parseInt(str);
@@ -21,7 +21,16 @@ public class Example03 {
         String str2 = String.valueOf(i);
 
         int[] arr = new int[5];
+        String[] strArr = new String[3];
+        Test[] testArr = new Test[3];
+        testArr[0] = new Test();
         System.out.println(arr[0]);
+        System.out.println(strArr[0]);
+        System.out.println(testArr[0]);
 
     }
+}
+
+class Test {
+
 }

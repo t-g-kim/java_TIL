@@ -6,7 +6,7 @@ public class Example01 {
         System.out.println(35); // 숫자 출력 가능
         System.out.println(35 + 30);    // 수식 출력 가능
 
-        System.out.printf("저는  %s 입니다. 나이는 %d이고, 키는 %f cm 입니다.", "홍길동", "20", 180.5f);
+        System.out.printf("저는  %s 입니다. 나이는 %d이고, 키는 %f cm 입니다.", "홍길동", 20, 180.5f);
 
         int x = 30;
         System.out.println(x);  // 변수도 출력 가능

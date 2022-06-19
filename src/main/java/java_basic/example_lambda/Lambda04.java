@@ -6,7 +6,6 @@ import java.util.List;
 public class Lambda04 {
     public static void main(String[] args) {
         Thread thread = new Thread(new Runnable() {
-
             @Override
             public void run() {
                 System.out.println("Start Thread");
