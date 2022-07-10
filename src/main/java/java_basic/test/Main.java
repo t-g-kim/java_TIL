@@ -17,6 +17,7 @@ public class Main {
         Lion lion = new Lion();
         lion.bark();
         lion.exist();
+
         Cat cat = new Cat();
         cat.bark();
         cat.exist();
