@@ -1,4 +1,4 @@
-package test.ktalpha;
+package code_test.ktalpha;
 
 /*
     실행결과

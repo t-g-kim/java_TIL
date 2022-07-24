@@ -1,4 +1,4 @@
-package test.ktalpha;
+package code_test.ktalpha;
 
 public class Test7 {
     public static void main(String args[]){

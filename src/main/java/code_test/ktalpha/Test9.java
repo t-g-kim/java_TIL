@@ -1,4 +1,4 @@
-package test.ktalpha;
+package code_test.ktalpha;
 
 /* 구간 ⓐ 시작*/
 abstract class Employee {

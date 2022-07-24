@@ -1,4 +1,4 @@
-package test.ktalpha;
+package code_test.ktalpha;
 
 class Member{
     int no;
