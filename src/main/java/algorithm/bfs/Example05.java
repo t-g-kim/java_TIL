@@ -3,7 +3,10 @@ package algorithm.bfs;
 import java.util.LinkedList;
 import java.util.Queue;
 
-/***************** */
+/***************** 
+ * 
+ * https://velog.io/@suk13574/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98Java-BFS-DFS
+*/
 public class Example05 {
 
     static boolean[] visit = new boolean[7];
