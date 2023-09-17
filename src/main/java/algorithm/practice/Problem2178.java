@@ -29,7 +29,7 @@ public class Problem2178 {
                         visited[x][y] = true;
                         array[x][y] = array[temp[0]][temp[1]] + 1;
                         queue.offer(new int[] {x, y});
-                    }
+                }
                 }
             }
         }
