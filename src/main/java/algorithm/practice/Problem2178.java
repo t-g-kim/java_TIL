@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
+// bfs
 public class Problem2178 {
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {1, 0, -1, 0};
@@ -11,10 +12,10 @@ public class Problem2178 {
 
     static int[][] array = {{1,0,1,1,1,1}, {1,0,1,0,1,0}, {1,0,1,0,1,1}, {1,1,1,0,1,1}};
     public static void main(String[] args) {
-        System.out.println(bfs(0, 0));
+        bfs(0, 0);
     }
 
-    public static int bfs(int startX, int startY) {
+    public static void bfs(int startX, int startY) {
         Queue<int[]> queue = new LinkedList<>();
         queue.offer(new int[] { startX, startY});
 
@@ -33,6 +34,6 @@ public class Problem2178 {
                 }
             }
         }
-        return array[3][5];
+        System.out.println(array[3][5]);
     }
 }
