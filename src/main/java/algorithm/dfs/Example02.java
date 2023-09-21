@@ -20,11 +20,10 @@ public class Example02 {
 		vistied[nodeIndex] = true;
 		
 		// 방문 노드 출력
-		// System.out.print(nodeIndex + " -> ");
+		 System.out.print(nodeIndex + " -> ");
 		
 		// 방문한 노드에 인접한 노드 찾기
 		for (int node : graph[nodeIndex]) {
-            System.out.println(node);
 			// 인접한 노드가 방문한 적이 없다면 DFS 수행
 			if(!vistied[node]) {
 				dfs(node);

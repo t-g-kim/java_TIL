@@ -49,6 +49,7 @@ public class Example01 {
 		while(!q.isEmpty()) {
 			int nodeIndex = q.poll();
 			sb.append(nodeIndex + " -> ");
+			
 			//큐에서 꺼낸 노드와 연결된 노드들 체크
 			for(int i=0; i<graph[nodeIndex].length; i++) {
 				int temp = graph[nodeIndex][i];

@@ -7,16 +7,17 @@ import java.util.Queue;
 public class Problem1012 {
 
     static int[][] array = {
-            {1,1,0,0,0,0,0,0,0,0},
-            {0,1,0,0,0,0,0,0,0,0},
-            {0,0,0,0,1,0,0,0,0,0},
-            {0,0,0,0,1,0,0,0,0,0},
-            {0,0,1,1,0,0,0,1,1,1},
-            {0,0,0,0,1,0,0,1,1,1}
+            {1, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+            {0, 0, 1, 1, 0, 0, 0, 1, 1, 1},
+            {0, 0, 0, 0, 1, 0, 0, 1, 1, 1}
     };
     static boolean[][] visited = new boolean[6][10];
     static int[] dx = {1, 0, -1, 0};
     static int[] dy = {0, 1, 0, -1};
+
     public static void main(String[] args) {
         int cnt = 0;
         for (int i = 0; i < 6; i++) {
@@ -41,11 +42,11 @@ public class Problem1012 {
                 int newX = value[0] + dx[i];
                 int newY = value[1] + dy[i];
 
-                if (newX >= 6 || newX < 0 ) continue;
+                if (newX >= 6 || newX < 0) continue;
                 if (newY >= 10 || newY < 0) continue;
                 if (!visited[newX][newY] && array[newX][newY] == 1) {
                     visited[newX][newY] = true;
-                    queue.offer(new int[] {newX, newY});
+                    queue.offer(new int[]{newX, newY});
                 }
             }
         }
